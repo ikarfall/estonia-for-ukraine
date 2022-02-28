@@ -21,7 +21,7 @@ header{background:linear-gradient(60deg,#006EC8,#000);color:#fff}
 .align-right{text-align:right}
 hr{border:0;border-top:1px solid #ccc;margin:2em 0}
 .container{max-width:800px;margin:0 auto;padding:2em}
-.top-nav{background-color:#fff}
+header .container{padding-bottom:1em}
 .top-nav a{display:block;margin:1em 0;line-height:1.2em}
 .frame{position:relative;background-image:url(../images/Ukraine-Estonia.webp);background-position:center;background-size:cover;padding-top:56.6%}
 .container.grid-col-2{display:grid;grid-template-columns:2fr 3fr;grid-gap:2em;}
@@ -30,7 +30,7 @@ footer{padding:2em}
 .show{opacity:1}
 .show:hover{opacity:.8}
 section{display:none}
-.menu-link-active{font-weight:500;color:#003A8C}
+.menu-link-active{color:#003A8C}
 .menu-link-active:hover{text-decoration:none;color:#003A8C;opacity:1}
 .section-active{display:block}
 @media(max-width:768px) {
