@@ -22,6 +22,7 @@
         p{margin-bottom:1em}
         ul{padding-left:1em;margin-bottom:1em}
         header{background:linear-gradient(60deg,#006EC8,#000);color:#fff}
+        .gray-bg{background-color:#f5f5f5}
         .languages{margin-bottom:1em}
         .languages a{display:inline-block;border:2px solid #1890FF;border-radius:4px;padding:0 .3em;line-height:1.6em}
         .languages a:hover{text-decoration:none;opacity:.8}
@@ -55,19 +56,23 @@
             <a href="/en">EN</a>
         </nav>
         <h1>Естонія для України: пошук та надання допомоги</h1>
-        <p>На цьому сайті ви можете знайти інформацію про те, як отримати допомогу, якщо ви евакуювалися або плануєте евакуюватися з України, а також якщо ви знаходитесь в Естонії та хочете допомогти.</p>
-        <p>Уряд Естонії наразі пропонує наступну допомогу українцям, залишаючим територію України:</p>
+        <p>На цьому сайті ви можете знайти інформацію про те, як отримати допомогу, якщо ви евакуювалися або плануєте евакуюватися з України або знаходитесь в Естонії та хочете допомогти.</p>
+    </div>
+</header>
+<section class="gray-bg">
+    <div class="container">
+        <h2>Уряд Естонії пропонує допомогу українцям, що залишають територію України</h2>
         <ul>
             <li>Відправляє автобуси до кордону Польща-Україна та перевозить до Естонії безкоштовно.</li>
             <li>Надає безкоштовне тимчасове житло в Естонії.</li>
             <li>Видає речі першої необхідності.</li>
             <li>Допомагає з пошуком роботи.</li>
             <li>Допомагає з влаштуванням дітей у садочки та школи.</li>
-            <li>Вирішує медичні питання у міру їх виникнення.</li>
+            <li>Вирішує медичні питання у залежності від їх виникнення.</li>
         </ul>
     </div>
-</header>
-<div class="container grid-col-2 top-nav">
+</section>
+<div class="container grid-col-2 top-nav" id="top-nav">
     <div class="frame"></div>
     <nav class="menu">
         <a href="#section-1">Я евакуйовуюсь і мене потрібно забрати з кордону з Україною</a>
@@ -194,7 +199,7 @@
     <p>Email<br/><a href="mailto:estonia.for.ukraine@gmail.com">estonia.for.ukraine@gmail.com</a></p>
     <p>Helping refugees from Ukraine</p>
     <p><a href="https://www.facebook.com/groups/1548399682110889">Facebook</a></p>
-    <a class="back-to-top" rel="nofollow"><span class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="36" fill="#fff" viewBox="0 0 24 24">
+    <a class="back-to-top" rel="nofollow" href="#top-nav"><span class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="36" fill="#fff" viewBox="0 0 24 24">
       <path d="M0 0h24v24H0V0z" fill="none" />
       <path d="M13 19V7.83l4.88 4.88c.39.39 1.03.39 1.42 0 .39-.39.39-1.02 0-1.41l-6.59-6.59c-.39-.39-1.02-.39-1.41 0l-6.6 6.58c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L11 7.83V19c0 .55.45 1 1 1s1-.45 1-1z" />
     </svg></span>
@@ -210,12 +215,6 @@
         } else {
             $(".back-to-top").removeClass("show");
         }
-    });
-
-    var btn = $(".back-to-top");
-    btn.on("click", function (e) {
-        e.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "300");
     });
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
