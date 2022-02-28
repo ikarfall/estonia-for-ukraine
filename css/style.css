@@ -29,6 +29,16 @@ footer{padding:2em}
 .back-to-top{position:fixed;z-index:2;right:.5em;bottom:.5em;display:block;background-color:#1890FF;border-radius:4px;width:2em;height:2em;text-align:center;cursor:pointer;opacity:0;transition:.5s all ease}
 .show{opacity:1}
 .show:hover{opacity:.8}
+#section-1, #section-2, #section-3, #section-4, #section-5{
+    display: none;
+}
+.menu-link-active{
+    color: red;
+}
+.section-active{
+    display: block!important;
+}
+
 @media(max-width:768px) {
     h1{font-size:1.8em;line-height:1.2em}
     h2{font-size:1.6em;line-height:1.2em}
