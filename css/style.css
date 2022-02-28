@@ -1,8 +1,8 @@
 *{padding:0;margin:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:'Roboto',sans-serif;font-size:18px;line-height:1.6em;color:#333}
-a{color:#1890FF;text-decoration:none;transition:.5s all ease}
-a:hover{color:#40A9FF;text-decoration:underline}
+a{color:#1890FF;text-decoration:none;transition:.25s all ease;cursor:pointer}
+a:hover{color:#40A9FF}
 a:active{color:#096DD9}
 h1{font-size:3em;line-height:1.2em;margin-bottom:.5em}
 h2{font-size:1.8em;line-height:1.2em;margin-bottom:.5em;color:#003A8C}
@@ -29,16 +29,10 @@ footer{padding:2em}
 .back-to-top{position:fixed;z-index:2;right:.5em;bottom:.5em;display:block;background-color:#1890FF;border-radius:4px;width:2em;height:2em;text-align:center;cursor:pointer;opacity:0;transition:.5s all ease}
 .show{opacity:1}
 .show:hover{opacity:.8}
-#section-1, #section-2, #section-3, #section-4, #section-5{
-    display: none;
-}
-.menu-link-active{
-    color: red;
-}
-.section-active{
-    display: block!important;
-}
-
+section{display:none}
+.menu-link-active{font-weight:500;color:#003A8C}
+.menu-link-active:hover{text-decoration:none;color:#003A8C;opacity:1}
+.section-active{display:block}
 @media(max-width:768px) {
     h1{font-size:1.8em;line-height:1.2em}
     h2{font-size:1.6em;line-height:1.2em}
