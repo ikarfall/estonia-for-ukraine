@@ -24,8 +24,7 @@ hr{border:0;border-top:1px solid #ccc;margin:2em 0}
 .top-nav{background-color:#fff}
 .top-nav a{display:block;margin:1em 0;line-height:1.2em}
 .frame{position:relative;background-image:url(../images/Ukraine-Estonia.webp);background-position:center;background-size:cover;padding-top:56.6%}
-.container.grid-col-2{display:grid;grid-template-columns:2fr 3fr;grid-gap:2em;border-bottom:1px solid #ccc}
-.container.grid-col-2 h2{font-size:1.6em;line-height:1.2em;margin-bottom:0}
+.container.grid-col-2{display:grid;grid-template-columns:2fr 3fr;grid-gap:2em;}
 footer{padding:2em}
 .back-to-top{position:fixed;z-index:2;right:.5em;bottom:.5em;display:block;background-color:#1890FF;border-radius:4px;width:2em;height:2em;text-align:center;cursor:pointer;opacity:0;transition:.5s all ease}
 .show{opacity:1}
